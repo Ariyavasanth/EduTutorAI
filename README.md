@@ -103,17 +103,6 @@ EduTutor AI interacts with the Hugging Face API.
 
 ---
 
-## 🎨 User Interface
-- **Input:**  
-  - Text box → `"Enter a concept"`  
-- **Output:**  
-  - **Explanation Tab:** Detailed explanation  
-  - **Quiz Generator Tab:** Auto-generated questions  
-- **Buttons:** `"Explain"` | `"Generate Quiz"`  
-- **Design:** Clean and minimal  
-
----
-
 ## 🧪 Testing
 - **Unit Testing:** Verified explanations & quizzes for accuracy.  
 - **UI Testing:** Tested Gradio input/output usability.  
@@ -144,5 +133,5 @@ EduTutor AI interacts with the Hugging Face API.
 - Add **text-to-speech** for auditory learners.  
 - Deploy on **Hugging Face Spaces** for 24/7 access.  
 - Fine-tune the model with **academic datasets**.  
-**
+
 
