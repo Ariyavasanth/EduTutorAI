@@ -61,17 +61,18 @@ The goal is to bridge the gap between static learning materials and interactive,
 2. Install dependencies:
    ```bash
    !pip install transformers torch gradio -q
+   ```
 
 ```bash
    EduTutorAI/
 │── edututor_ai.ipynb   # Main Colab notebook
 │── requirements.txt    # (Optional) project dependencies
-
+```
 ```bash
 gradio
 transformers
 torch
- ```bash
+ ```
 
 ## ▶️ Running the Application
 1. Open **`edututor_ai.ipynb`** in Google Colab.  
