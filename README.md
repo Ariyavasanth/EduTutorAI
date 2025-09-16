@@ -72,3 +72,75 @@ gradio
 transformers
 torch
 
+## ▶️ Running the Application
+1. Open **`edututor_ai.ipynb`** in Google Colab.  
+2. Run the first cell (install libraries).  
+3. Run the subsequent cells (load model + build interface).  
+4. The final cell outputs a **public Gradio link** (e.g., `https://12345.gradio.live`).  
+5. Open the link → Enter a concept → Click **Explain** or **Generate Quiz**.  
+
+---
+
+## 📡 API Documentation
+EduTutor AI interacts with the Hugging Face API.  
+
+- **Input Examples:**  
+  - `"Explain the concept of Full Stack Development"`  
+  - `"Generate a quiz on the topic of Machine Learning"`  
+
+- **Output:**  
+  - AI-generated **explanation** OR **structured quiz questions + answers**.  
+
+---
+
+## 🔐 Authentication
+- **Current Version:** No authentication required (public access).  
+- **Future Plans:**  
+  - Hugging Face API tokens for secure access.  
+  - User login system for progress tracking.  
+
+---
+
+## 🎨 User Interface
+- **Input:**  
+  - Text box → `"Enter a concept"`  
+- **Output:**  
+  - **Explanation Tab:** Detailed explanation  
+  - **Quiz Generator Tab:** Auto-generated questions  
+- **Buttons:** `"Explain"` | `"Generate Quiz"`  
+- **Design:** Clean and minimal  
+
+---
+
+## 🧪 Testing
+- **Unit Testing:** Verified explanations & quizzes for accuracy.  
+- **UI Testing:** Tested Gradio input/output usability.  
+- **Model Testing:** Refined prompts to improve AI outputs.  
+
+---
+
+## 📸 Screenshots
+- **Figure 1:** Main interface with input & action buttons  
+- **Figure 2:** "Explanation" tab example (topic: *Full Stack Developer*)  
+- **Figure 3:** "Quiz Generator" tab example (topic: *Gen AI*)  
+- **Figure 4:** Minimal UI design  
+
+---
+
+## ⚠️ Known Issues
+- Responses may be verbose or slightly inaccurate.  
+- Quiz formatting may vary.  
+- Public Colab links expire after inactivity.  
+- Performance may lag without GPU.  
+
+---
+
+## 🔮 Future Enhancements
+- Add **difficulty levels** for quizzes (Beginner / Intermediate / Expert).  
+- Implement **user accounts** (save history & scores).  
+- Support **image-based inputs** (diagrams, charts).  
+- Add **text-to-speech** for auditory learners.  
+- Deploy on **Hugging Face Spaces** for 24/7 access.  
+- Fine-tune the model with **academic datasets**.  
+**
+
