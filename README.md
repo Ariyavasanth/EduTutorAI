@@ -71,6 +71,7 @@ The goal is to bridge the gap between static learning materials and interactive,
 gradio
 transformers
 torch
+ ```bash
 
 ## ▶️ Running the Application
 1. Open **`edututor_ai.ipynb`** in Google Colab.  
