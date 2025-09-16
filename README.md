@@ -62,12 +62,12 @@ The goal is to bridge the gap between static learning materials and interactive,
    ```bash
    !pip install transformers torch gradio -q
 
-
+```bash
    EduTutorAI/
 │── edututor_ai.ipynb   # Main Colab notebook
 │── requirements.txt    # (Optional) project dependencies
 
-
+```bash
 gradio
 transformers
 torch
