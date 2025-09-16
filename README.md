@@ -110,14 +110,6 @@ EduTutor AI interacts with the Hugging Face API.
 
 ---
 
-## 📸 Screenshots
-- **Figure 1:** Main interface with input & action buttons  
-- **Figure 2:** "Explanation" tab example (topic: *Full Stack Developer*)  
-- **Figure 3:** "Quiz Generator" tab example (topic: *Gen AI*)  
-- **Figure 4:** Minimal UI design  
-
----
-
 ## ⚠️ Known Issues
 - Responses may be verbose or slightly inaccurate.  
 - Quiz formatting may vary.  
@@ -132,6 +124,8 @@ EduTutor AI interacts with the Hugging Face API.
 - Support **image-based inputs** (diagrams, charts).  
 - Add **text-to-speech** for auditory learners.  
 - Deploy on **Hugging Face Spaces** for 24/7 access.  
-- Fine-tune the model with **academic datasets**.  
+- Fine-tune the model with **academic datasets**.
+
+## Live video link: [video link](https://drive.google.com/file/d/1bPZ8a5DuftSJMC9SCXs2vKgfwC0lvGxx/view?usp=drive_link)
 
 
